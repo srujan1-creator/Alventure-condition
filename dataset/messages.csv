@@ -1,0 +1,61 @@
+message_id,user_id,conversation_type,group_id,business_id,sender_user_id,created_at,message_text,media_type,media_id,forwarded_count
+msg_0001,user_002,personal,,,user_007,2026-08-01T18:45:53.145477,URGENT OTP: Your verification code is 948201. Do not share with anyone.,,,0
+msg_0002,user_003,group,group_003,,user_008,2026-08-01T18:30:53.145477,"Hey @user_001, can you send the slide deck before 5pm meeting?",,,1
+msg_0003,user_004,business,,biz_004,,2026-08-01T18:15:53.145477,Your Swiggy order #84920 has been picked up by delivery partner.,,,1
+msg_0004,user_005,personal,,,user_010,2026-08-01T18:00:53.145477,"CONGRATULATIONS! You won $50,000 lottery! Click http://scam-win.xyz to claim now!",,,0
+msg_0005,user_006,business,,biz_006,,2026-08-01T17:45:53.145477,50% OFF Flash Sale on shoes! Use code SHOE50 today only!,image,img_001,1
+msg_0006,user_007,group,group_007,,user_012,2026-08-01T17:30:53.145477,Please pay monthly maintenance fee of Rs 2500 by 10th August.,image,img_002,1
+msg_0007,user_008,personal,,,user_013,2026-08-01T17:15:53.145477,Voice Note Audio Message,voice,vn_001,1
+msg_0008,user_009,personal,,,user_014,2026-08-01T17:00:53.145477,Your account will be suspended in 1 hour unless you verify details here: http://phish-bank.biz,voice,vn_003,0
+msg_0009,user_010,group,group_010,,user_015,2026-08-01T16:45:53.145477,Good morning everyone! Have a nice weekend!,,,0
+msg_0010,user_011,group,group_001,,user_016,2026-08-01T16:30:53.145477,Forwarded many times: Drink lemon tea to cure all viruses!,,,24
+msg_0011,user_012,personal,,,user_017,2026-08-01T16:15:53.145477,URGENT OTP: Your verification code is 948201. Do not share with anyone.,,,1
+msg_0012,user_013,group,group_003,,user_018,2026-08-01T16:00:53.145477,"Hey @user_001, can you send the slide deck before 5pm meeting?",,,0
+msg_0013,user_014,business,,biz_006,,2026-08-01T15:45:53.145477,Your Swiggy order #84920 has been picked up by delivery partner.,,,1
+msg_0014,user_015,personal,,,user_020,2026-08-01T15:30:53.145477,"CONGRATULATIONS! You won $50,000 lottery! Click http://scam-win.xyz to claim now!",,,0
+msg_0015,user_016,business,,biz_008,,2026-08-01T15:15:53.145477,50% OFF Flash Sale on shoes! Use code SHOE50 today only!,image,img_001,0
+msg_0016,user_017,group,group_007,,user_022,2026-08-01T15:00:53.145477,Please pay monthly maintenance fee of Rs 2500 by 10th August.,image,img_002,0
+msg_0017,user_018,personal,,,user_023,2026-08-01T14:45:53.145477,Voice Note Audio Message,voice,vn_001,1
+msg_0018,user_019,personal,,,user_024,2026-08-01T14:30:53.145477,Your account will be suspended in 1 hour unless you verify details here: http://phish-bank.biz,voice,vn_003,0
+msg_0019,user_020,group,group_010,,user_025,2026-08-01T14:15:53.145477,Good morning everyone! Have a nice weekend!,,,0
+msg_0020,user_021,group,group_001,,user_026,2026-08-01T14:00:53.145477,Forwarded many times: Drink lemon tea to cure all viruses!,,,8
+msg_0021,user_022,personal,,,user_027,2026-08-01T13:45:53.145477,URGENT OTP: Your verification code is 948201. Do not share with anyone.,,,0
+msg_0022,user_023,group,group_003,,user_028,2026-08-01T13:30:53.145477,"Hey @user_001, can you send the slide deck before 5pm meeting?",,,0
+msg_0023,user_024,business,,biz_008,,2026-08-01T13:15:53.145477,Your Swiggy order #84920 has been picked up by delivery partner.,,,0
+msg_0024,user_025,personal,,,user_030,2026-08-01T13:00:53.145477,"CONGRATULATIONS! You won $50,000 lottery! Click http://scam-win.xyz to claim now!",,,1
+msg_0025,user_026,business,,biz_002,,2026-08-01T12:45:53.145477,50% OFF Flash Sale on shoes! Use code SHOE50 today only!,image,img_001,0
+msg_0026,user_027,group,group_007,,user_032,2026-08-01T12:30:53.145477,Please pay monthly maintenance fee of Rs 2500 by 10th August.,image,img_002,1
+msg_0027,user_028,personal,,,user_033,2026-08-01T12:15:53.145477,Voice Note Audio Message,voice,vn_001,0
+msg_0028,user_029,personal,,,user_034,2026-08-01T12:00:53.145477,Your account will be suspended in 1 hour unless you verify details here: http://phish-bank.biz,voice,vn_003,1
+msg_0029,user_030,group,group_010,,user_035,2026-08-01T11:45:53.145477,Good morning everyone! Have a nice weekend!,,,1
+msg_0030,user_031,group,group_001,,user_036,2026-08-01T11:30:53.145477,Forwarded many times: Drink lemon tea to cure all viruses!,,,20
+msg_0031,user_032,personal,,,user_037,2026-08-01T11:15:53.145477,URGENT OTP: Your verification code is 948201. Do not share with anyone.,,,0
+msg_0032,user_033,group,group_003,,user_038,2026-08-01T11:00:53.145477,"Hey @user_001, can you send the slide deck before 5pm meeting?",,,1
+msg_0033,user_034,business,,biz_002,,2026-08-01T10:45:53.145477,Your Swiggy order #84920 has been picked up by delivery partner.,,,0
+msg_0034,user_035,personal,,,user_040,2026-08-01T10:30:53.145477,"CONGRATULATIONS! You won $50,000 lottery! Click http://scam-win.xyz to claim now!",,,0
+msg_0035,user_036,business,,biz_004,,2026-08-01T10:15:53.145477,50% OFF Flash Sale on shoes! Use code SHOE50 today only!,image,img_001,0
+msg_0036,user_037,group,group_007,,user_042,2026-08-01T10:00:53.145477,Please pay monthly maintenance fee of Rs 2500 by 10th August.,image,img_002,1
+msg_0037,user_038,personal,,,user_043,2026-08-01T09:45:53.145477,Voice Note Audio Message,voice,vn_001,1
+msg_0038,user_039,personal,,,user_044,2026-08-01T09:30:53.145477,Your account will be suspended in 1 hour unless you verify details here: http://phish-bank.biz,voice,vn_003,0
+msg_0039,user_040,group,group_010,,user_045,2026-08-01T09:15:53.145477,Good morning everyone! Have a nice weekend!,,,0
+msg_0040,user_041,group,group_001,,user_046,2026-08-01T09:00:53.145477,Forwarded many times: Drink lemon tea to cure all viruses!,,,17
+msg_0041,user_042,personal,,,user_047,2026-08-01T08:45:53.145477,URGENT OTP: Your verification code is 948201. Do not share with anyone.,,,0
+msg_0042,user_043,group,group_003,,user_048,2026-08-01T08:30:53.145477,"Hey @user_001, can you send the slide deck before 5pm meeting?",,,1
+msg_0043,user_044,business,,biz_004,,2026-08-01T08:15:53.145477,Your Swiggy order #84920 has been picked up by delivery partner.,,,0
+msg_0044,user_045,personal,,,user_050,2026-08-01T08:00:53.145477,"CONGRATULATIONS! You won $50,000 lottery! Click http://scam-win.xyz to claim now!",,,0
+msg_0045,user_046,business,,biz_006,,2026-08-01T07:45:53.145477,50% OFF Flash Sale on shoes! Use code SHOE50 today only!,image,img_001,1
+msg_0046,user_047,group,group_007,,user_002,2026-08-01T07:30:53.145477,Please pay monthly maintenance fee of Rs 2500 by 10th August.,image,img_002,0
+msg_0047,user_048,personal,,,user_003,2026-08-01T07:15:53.145477,Voice Note Audio Message,voice,vn_001,1
+msg_0048,user_049,personal,,,user_004,2026-08-01T07:00:53.145477,Your account will be suspended in 1 hour unless you verify details here: http://phish-bank.biz,voice,vn_003,0
+msg_0049,user_050,group,group_010,,user_005,2026-08-01T06:45:53.145477,Good morning everyone! Have a nice weekend!,,,1
+msg_0050,user_001,group,group_001,,user_006,2026-08-01T06:30:53.145477,Forwarded many times: Drink lemon tea to cure all viruses!,,,25
+msg_0051,user_002,personal,,,user_007,2026-08-01T06:15:53.145477,URGENT OTP: Your verification code is 948201. Do not share with anyone.,,,0
+msg_0052,user_003,group,group_003,,user_008,2026-08-01T06:00:53.145477,"Hey @user_001, can you send the slide deck before 5pm meeting?",,,0
+msg_0053,user_004,business,,biz_006,,2026-08-01T05:45:53.145477,Your Swiggy order #84920 has been picked up by delivery partner.,,,1
+msg_0054,user_005,personal,,,user_010,2026-08-01T05:30:53.145477,"CONGRATULATIONS! You won $50,000 lottery! Click http://scam-win.xyz to claim now!",,,1
+msg_0055,user_006,business,,biz_008,,2026-08-01T05:15:53.145477,50% OFF Flash Sale on shoes! Use code SHOE50 today only!,image,img_001,1
+msg_0056,user_007,group,group_007,,user_012,2026-08-01T05:00:53.145477,Please pay monthly maintenance fee of Rs 2500 by 10th August.,image,img_002,0
+msg_0057,user_008,personal,,,user_013,2026-08-01T04:45:53.145477,Voice Note Audio Message,voice,vn_001,0
+msg_0058,user_009,personal,,,user_014,2026-08-01T04:30:53.145477,Your account will be suspended in 1 hour unless you verify details here: http://phish-bank.biz,voice,vn_003,1
+msg_0059,user_010,group,group_010,,user_015,2026-08-01T04:15:53.145477,Good morning everyone! Have a nice weekend!,,,1
+msg_0060,user_011,group,group_001,,user_016,2026-08-01T04:00:53.145477,Forwarded many times: Drink lemon tea to cure all viruses!,,,12

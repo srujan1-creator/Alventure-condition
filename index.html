@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Message Notification Router - Enterprise AI Control Center</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Top Navigation Header -->
+        <header class="top-nav">
+            <div class="brand">
+                <div class="logo-icon">
+                    <i data-lucide="shield-check"></i>
+                </div>
+                <div class="brand-text">
+                    <h1>WhatsApp AI Notification Router</h1>
+                    <span class="subtitle">Personalized Multimodal Decision Engine</span>
+                </div>
+            </div>
+
+            <div class="nav-metrics">
+                <div class="metric-pill">
+                    <span class="dot live"></span>
+                    <span class="label">Python Backend API:</span>
+                    <span class="val highlight" id="apiStatus">Online (Port 8000)</span>
+                </div>
+                <div class="metric-pill">
+                    <i data-lucide="target" style="width:14px; height:14px; color:#10b981;"></i>
+                    <span class="label">Macro Accuracy:</span>
+                    <span class="val highlight" id="accMetric">90.0%</span>
+                </div>
+                <div class="metric-pill">
+                    <i data-lucide="shield-alert" style="width:14px; height:14px; color:#f43f5e;"></i>
+                    <span class="label">Scams Blocked:</span>
+                    <span class="val" id="scamCountMetric">15</span>
+                </div>
+                <div class="metric-pill">
+                    <i data-lucide="message-square" style="width:14px; height:14px; color:#6366f1;"></i>
+                    <span class="label">Total Routed:</span>
+                    <span class="val" id="totalCount">60</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Workspace -->
+        <main class="workspace">
+            <!-- Left Sidebar Navigation -->
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <h3>Routing Decisions</h3>
+                    <div class="filter-group" id="actionFilters">
+                        <button class="filter-btn active" data-filter="all">
+                            <span><i data-lucide="layers"></i> All Messages</span>
+                            <span class="badge" id="badgeAll">60</span>
+                        </button>
+                        <button class="filter-btn notify" data-filter="notify">
+                            <span><i data-lucide="bell"></i> Notify (Interrupt)</span>
+                            <span class="badge" id="countNotify">18</span>
+                        </button>
+                        <button class="filter-btn digest" data-filter="digest">
+                            <span><i data-lucide="inbox"></i> Digest (Batch)</span>
+                            <span class="badge" id="countDigest">15</span>
+                        </button>
+                        <button class="filter-btn mute" data-filter="mute">
+                            <span><i data-lucide="volume-x"></i> Mute (Suppress)</span>
+                            <span class="badge" id="countMute">27</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="sidebar-section">
+                    <h3>Multimodal Media</h3>
+                    <div class="filter-group" id="mediaFilters">
+                        <button class="filter-btn active" data-media="all"><i data-lucide="file-text"></i> All Media Types</button>
+                        <button class="filter-btn" data-media="text"><i data-lucide="align-left"></i> Text Messages</button>
+                        <button class="filter-btn" data-media="image"><i data-lucide="image"></i> Image Posters</button>
+                        <button class="filter-btn" data-media="voice"><i data-lucide="mic"></i> Voice Notes</button>
+                    </div>
+                </div>
+
+                <div class="sidebar-section">
+                    <h3>Conversation Channel</h3>
+                    <div class="filter-group" id="channelFilters">
+                        <button class="filter-btn active" data-channel="all"><i data-lucide="grid"></i> All Channels</button>
+                        <button class="filter-btn" data-channel="personal"><i data-lucide="user"></i> Personal</button>
+                        <button class="filter-btn" data-channel="group"><i data-lucide="users"></i> Group</button>
+                        <button class="filter-btn" data-channel="business"><i data-lucide="briefcase"></i> Business</button>
+                    </div>
+                </div>
+
+                <!-- Live Analytics Mini Card -->
+                <div class="sidebar-analytics-card">
+                    <div class="card-head"><i data-lucide="pie-chart"></i> Routing Distribution</div>
+                    <div class="chart-bar-wrap">
+                        <div class="chart-bar notify-bar" id="barNotify" style="width: 30%"></div>
+                        <div class="chart-bar digest-bar" id="barDigest" style="width: 25%"></div>
+                        <div class="chart-bar mute-bar" id="barMute" style="width: 45%"></div>
+                    </div>
+                    <div class="chart-legend">
+                        <span><span class="dot notify"></span> Notify 30%</span>
+                        <span><span class="dot digest"></span> Digest 25%</span>
+                        <span><span class="dot mute"></span> Mute 45%</span>
+                    </div>
+                </div>
+
+                <div class="sidebar-footer">
+                    <button class="btn-primary" id="btnOpenTester">
+                        <i data-lucide="sliders"></i> Live Sandbox Tester
+                    </button>
+                </div>
+            </aside>
+
+            <!-- Middle Message Feed -->
+            <section class="feed-container">
+                <div class="feed-header">
+                    <div class="feed-title-wrap">
+                        <h2>Incoming WhatsApp Stream</h2>
+                        <span class="feed-subtitle">Real-time decisions evaluated by Python AI Router Engine</span>
+                    </div>
+                    <div class="search-wrap">
+                        <i data-lucide="search" class="search-icon"></i>
+                        <input type="text" id="searchInput" placeholder="Search content, user, or ID..." class="search-box">
+                    </div>
+                </div>
+
+                <div class="message-feed" id="messageFeed">
+                    <!-- Message Cards Injected via app.js -->
+                </div>
+            </section>
+
+            <!-- Right Inspector Panel -->
+            <aside class="inspector-panel" id="inspectorPanel">
+                <div class="inspector-header">
+                    <div class="title-wrap">
+                        <h2>AI Routing Inspection</h2>
+                        <span class="inspector-sub">Personalized Context & Safety Signals</span>
+                    </div>
+                    <span class="message-id-tag" id="inspMessageId">msg_0001</span>
+                </div>
+
+                <div class="inspector-body" id="inspectorContent">
+                    <!-- Selected Message Details Injected via app.js -->
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <!-- Custom Message Sandbox Modal -->
+    <div class="modal-overlay" id="testerModal">
+        <div class="modal-card">
+            <div class="modal-header">
+                <div class="m-title">
+                    <i data-lucide="cpu" style="color:var(--color-accent)"></i>
+                    <h2>Live Python AI Router Sandbox</h2>
+                </div>
+                <button class="close-btn" id="btnCloseTester">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="testerForm">
+                    <div class="form-group">
+                        <label>Conversation Type</label>
+                        <select id="testConvType">
+                            <option value="personal">Personal Chat</option>
+                            <option value="group">Group Chat</option>
+                            <option value="business">Business Account</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Incoming WhatsApp Message Content</label>
+                        <textarea id="testText" rows="3" placeholder="Type WhatsApp message here... (e.g. URGENT OTP: 948201 or CONGRATULATIONS YOU WON $50,000)"></textarea>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Media Attachment</label>
+                            <select id="testMedia">
+                                <option value="none">Text Only</option>
+                                <option value="image">Image Poster (50% Off Flash Sale)</option>
+                                <option value="voice">Voice Note Audio</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>User Quiet Hours Active?</label>
+                            <select id="testQuiet">
+                                <option value="false">No (Active User Hours)</option>
+                                <option value="true">Yes (Quiet Hours 10PM - 7AM)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Group Chat Muted by User?</label>
+                            <select id="testGroupMuted">
+                                <option value="false">No</option>
+                                <option value="true">Yes (Muted Group)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Verified Business Sender?</label>
+                            <select id="testBizVerified">
+                                <option value="true">Yes (Verified Domain)</option>
+                                <option value="false">No (Unverified / Phishing)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-submit">
+                        <i data-lucide="play" style="width:16px; height:16px;"></i> Route Message via Python Engine
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

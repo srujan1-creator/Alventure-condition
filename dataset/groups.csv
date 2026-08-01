@@ -1,0 +1,21 @@
+group_id,group_name,group_type,member_count,admin_user_ids,recent_activity_level
+group_001,Interest Group 1,interest,20,user_058;user_034,low
+group_002,Work Group 2,work,22,user_063;user_081;user_031,medium
+group_003,Family Group 3,family,26,user_037;user_031;user_035,medium
+group_004,Friends Group 4,friends,14,user_018,high
+group_005,School Group 5,school,9,user_020;user_091;user_028,medium
+group_006,School Group 6,school,31,user_070;user_060,high
+group_007,Society Group 7,society,42,user_050;user_099,low
+group_008,Family Group 8,family,27,user_049;user_062;user_001,medium
+group_009,School Group 9,school,39,user_069;user_096,low
+group_010,Society Group 10,society,32,user_029;user_035,medium
+group_011,Family Group 11,family,48,user_044;user_086,medium
+group_012,Interest Group 12,interest,13,user_060,low
+group_013,Friends Group 13,friends,42,user_051,low
+group_014,Interest Group 14,interest,46,user_011,medium
+group_015,Society Group 15,society,21,user_024;user_007,medium
+group_016,Work Group 16,work,25,user_059,medium
+group_017,School Group 17,school,21,user_097;user_054,high
+group_018,School Group 18,school,39,user_096,high
+group_019,Work Group 19,work,9,user_084,low
+group_020,Family Group 20,family,17,user_032,high

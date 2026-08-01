@@ -1,0 +1,5 @@
+image_id,file_path,ocr_text,image_description
+img_001,media/poster_sale.png,50% OFF FLASH SALE! Use code SAVE50,Promotional poster offering 50% discount
+img_002,media/payment_qr.png,Scan UPI QR Code to pay maintenance bill Rs 2500,UPI Payment QR code screenshot for bill payment
+img_003,media/event_invite.jpg,Annual Society Meeting Sunday 5 PM at Club House,Notice poster for upcoming society meeting
+img_004,media/scam_winner.png,CONGRATULATIONS YOU WON 10 LAKHS! Click bit.ly/claim-prize now,Scam lottery winner screenshot with external link

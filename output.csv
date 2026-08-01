@@ -1,0 +1,61 @@
+message_id,action,message_type,reason,confidence,evidence_message_ids
+msg_0001,notify,urgent,Time-sensitive security authentication OTP,0.98,none
+msg_0002,digest,event,Community event notice scheduled for batch review,0.87,none
+msg_0003,notify,business_update,Real-time delivery/booking update from trusted merchant,0.92,none
+msg_0004,mute,scam,Suspicious phishing patterns or unverified domain detected; muted for security,0.97,none
+msg_0005,digest,promotion,Useful commercial update batched into non-intrusive daily summary,0.88,none
+msg_0006,digest,payment,Upcoming bill or payment notice saved to digest,0.89,none
+msg_0007,notify,urgent,Personal direct communication requiring timely review,0.9,none
+msg_0008,mute,scam,Suspicious phishing patterns or unverified domain detected; muted for security,0.97,none
+msg_0009,mute,greeting,Routine social greeting message muted to minimize interruption,0.93,none
+msg_0010,mute,forward,High forward count message treated as viral broadcast noise,0.91,none
+msg_0011,notify,urgent,Time-sensitive security authentication OTP,0.98,none
+msg_0012,digest,event,Community event notice scheduled for batch review,0.87,none
+msg_0013,notify,business_update,Real-time delivery/booking update from trusted merchant,0.92,none
+msg_0014,mute,scam,Suspicious phishing patterns or unverified domain detected; muted for security,0.97,none
+msg_0015,mute,spam,Suspicious phishing patterns or unverified domain detected; muted for security,0.97,none
+msg_0016,digest,payment,Upcoming bill or payment notice saved to digest,0.89,none
+msg_0017,notify,urgent,Personal direct communication requiring timely review,0.9,none
+msg_0018,mute,scam,Suspicious phishing patterns or unverified domain detected; muted for security,0.97,none
+msg_0019,mute,greeting,Routine social greeting message muted to minimize interruption,0.93,none
+msg_0020,mute,forward,High forward count message treated as viral broadcast noise,0.91,none
+msg_0021,notify,urgent,Time-sensitive security authentication OTP,0.98,none
+msg_0022,digest,event,Community event notice scheduled for batch review,0.87,none
+msg_0023,mute,spam,Suspicious phishing patterns or unverified domain detected; muted for security,0.97,none
+msg_0024,mute,scam,Suspicious phishing patterns or unverified domain detected; muted for security,0.97,none
+msg_0025,notify,business_update,Real-time delivery/booking update from trusted merchant,0.92,none
+msg_0026,digest,payment,Upcoming bill or payment notice saved to digest,0.89,none
+msg_0027,notify,urgent,Personal direct communication requiring timely review,0.9,none
+msg_0028,mute,scam,Suspicious phishing patterns or unverified domain detected; muted for security,0.97,none
+msg_0029,mute,greeting,Routine social greeting message muted to minimize interruption,0.93,none
+msg_0030,mute,forward,High forward count message treated as viral broadcast noise,0.91,none
+msg_0031,notify,urgent,Time-sensitive security authentication OTP,0.98,none
+msg_0032,digest,event,Community event notice scheduled for batch review,0.87,none
+msg_0033,notify,business_update,Real-time delivery/booking update from trusted merchant,0.92,hist_msg_0052
+msg_0034,mute,scam,Suspicious phishing patterns or unverified domain detected; muted for security,0.97,none
+msg_0035,notify,business_update,Real-time delivery/booking update from trusted merchant,0.92,none
+msg_0036,digest,payment,Upcoming bill or payment notice saved to digest,0.89,none
+msg_0037,notify,urgent,Personal direct communication requiring timely review,0.9,none
+msg_0038,mute,scam,Suspicious phishing patterns or unverified domain detected; muted for security,0.97,none
+msg_0039,mute,greeting,Routine social greeting message muted to minimize interruption,0.93,none
+msg_0040,mute,forward,High forward count message treated as viral broadcast noise,0.91,none
+msg_0041,notify,urgent,Time-sensitive security authentication OTP,0.98,none
+msg_0042,digest,event,Community event notice scheduled for batch review,0.87,none
+msg_0043,notify,business_update,Real-time delivery/booking update from trusted merchant,0.92,none
+msg_0044,mute,scam,Suspicious phishing patterns or unverified domain detected; muted for security,0.97,none
+msg_0045,digest,promotion,Useful commercial update batched into non-intrusive daily summary,0.88,none
+msg_0046,digest,payment,Upcoming bill or payment notice saved to digest,0.89,none
+msg_0047,digest,urgent,Personal direct communication requiring timely review,0.9,none
+msg_0048,mute,scam,Suspicious phishing patterns or unverified domain detected; muted for security,0.97,none
+msg_0049,mute,greeting,Routine social greeting message muted to minimize interruption,0.93,none
+msg_0050,mute,forward,High forward count message treated as viral broadcast noise,0.91,none
+msg_0051,notify,urgent,Time-sensitive security authentication OTP,0.98,none
+msg_0052,digest,event,Community event notice scheduled for batch review,0.87,none
+msg_0053,notify,business_update,Real-time delivery/booking update from trusted merchant,0.92,none
+msg_0054,mute,scam,Suspicious phishing patterns or unverified domain detected; muted for security,0.97,none
+msg_0055,mute,spam,Suspicious phishing patterns or unverified domain detected; muted for security,0.97,none
+msg_0056,digest,payment,Upcoming bill or payment notice saved to digest,0.89,none
+msg_0057,notify,urgent,Personal direct communication requiring timely review,0.9,none
+msg_0058,mute,scam,Suspicious phishing patterns or unverified domain detected; muted for security,0.97,none
+msg_0059,mute,greeting,Routine social greeting message muted to minimize interruption,0.93,none
+msg_0060,mute,forward,High forward count message treated as viral broadcast noise,0.91,none

@@ -1,0 +1,11 @@
+business_id,brand_name,is_verified,sender_domain,account_age_days,report_count
+biz_001,Zomato,True,zomato.com,1064,2
+biz_002,Amazon,True,amazon.com,227,1
+biz_003,Uber,True,uber.com,505,1
+biz_004,Swiggy,True,swiggy.in,260,1
+biz_005,HDFC Bank,True,hdfcbank.com,930,0
+biz_006,State Bank,True,sbi.co.in,298,0
+biz_007,Flash Sales LLC,False,cheapdeals-scam.xyz,4,89
+biz_008,Crypto Winners,False,lottery-win.info,25,236
+biz_009,Local Bakery,False,localbakery.com,40,122
+biz_010,Quick Loans,False,fastcash-now.biz,16,236

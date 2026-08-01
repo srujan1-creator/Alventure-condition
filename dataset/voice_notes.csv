@@ -1,0 +1,4 @@
+voice_note_id,file_path,transcript,duration_seconds
+vn_001,media/voice_urgent.aac,"Hey, please send me the project file urgently before 6 PM meeting.",12
+vn_002,media/voice_greeting.aac,Good morning family! Hope everyone has a blessed Sunday.,25
+vn_003,media/voice_scam.aac,Your bank account will be blocked today unless you call 9876543210 immediately.,18
